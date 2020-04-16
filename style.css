@@ -1,0 +1,167 @@
+@font-face {
+	font-family: 'Comfortaa';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/comfortaa-v28-latin-regular.woff2') format('woff2'),
+	url('../fonts/comfortaa-v28-latin-regular.woff') format('woff'); 
+}
+@font-face {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/lato-v16-latin-regular.woff2') format('woff2'),
+	url('../fonts/lato-v16-latin-regular.woff') format('woff');
+}
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+} 
+.container{
+	max-width: 1200px;
+	padding: 0 10px;	
+	margin: 0 auto;	
+}
+.shriftlar{
+	padding: 15px 10px;	
+	margin-bottom: 40px;	
+	font-family: 'Comfortaa', cursive;
+	text-align: center;
+	background: url('img/chef-icon.png') no-repeat;
+	background-position: center;
+	background-size: 125px;
+}
+.shriftlar_heading{
+	font-size: 50px;	
+	margin: 0;	
+}
+.link{
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.item{
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+}
+.item a{
+	display: block;	
+	padding: 20px 40px;
+	color: #333;
+	text-decoration: none;
+}
+.item a:hover{
+	color: #333;
+	background-color: #999;
+}
+.big-box{
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.box{
+	width: 350px;
+	margin: 10px;
+	padding: 10px;
+}
+.menu_link{
+	text-decoration: none;
+	font-weight: 700;
+	margin: 5px 0;
+	color: white;
+}
+.color-link{
+	display: inline-block;;
+	padding: 5px 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.color-link:hover{
+	opacity: 0.7;
+}
+.food-title{
+	font-size: 18px;	
+	/*font-weight: bold;	*/
+}
+.food-title:hover{
+	color: tomato;
+}	
+.color-link--food{
+	background-color: orange;
+}
+.color-link--drink{
+	background-color: cornflowerblue;
+}
+.color-link--desert{
+	background-color: tomato;
+}
+.color-link--salad{
+	background-color: yellowgreen;
+}
+.bg{
+	width: 100%;
+}
+.small-box{
+	width: 250px;			
+	padding: 20px 0;	
+	margin: 0 auto;	
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	border: 3px solid red;
+}
+.small-box a{
+	color: red;
+	text-decoration: none;	 
+}
+.small-box:hover a{
+	color: white;	
+}
+.small-box:hover{
+	background-color: red;
+}
+
+.button{
+	margin-top: 40px;	
+	padding-top: 200px;
+	padding-bottom: 150px;
+	background: url('img/subsciption-bg.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.footer_form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.form-control{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.qq{
+	width: 400px;
+	height: 30px;	
+	padding: 20px;
+}
+.qq1{
+	width: 200px;
+	margin-left: 20px;
+	padding: 12px;	
+	text-align: center;
+	color:#fff;
+	font-size: 18px;	
+	border: none;
+	background-color: red;
+}
+.harf{
+	margin-top: 40px;	
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: white;	
+}
